@@ -10,8 +10,9 @@ img {
 	   <a href="https://www.fg-a.com/autos.htm" target="_blank"><img src="https://content.screencast.com/users/fg-a/folders/autos/media/c3ac6173-2d3a-423e-9acd-69c2cba25c29/car24.gif" width="280" height="123" border="0" alt="Car Clipart" /></a><p></p>
    }
 div{
-	line-height:1.6; 
-	הגדרה כללית לכל רשימה בדף שגורמת לכך שהרשימה לא תציג תבליטים לצד כל פריט ברשימה
+	<style type="text/css">
+
+  הגדרה כללית לכל רשימה בדף שגורמת לכך שהרשימה לא תציג תבליטים לצד כל פריט ברשימה
   ul { list-style-type: none; padding:0; margin:0; }
 
   קביעת צבע הרקע של כל פריט ברשימה וכן יצירת מצב שבו הפריטים יהיו זה לצד זה ולא זה מתחת לזה
@@ -32,6 +33,8 @@ div{
 
   בשורה זו נגדיר את הרשימות ברמה השניה כבלוק
   ul#nav li:hover ul { display:block; }
+
+</style>
 }
 
   
