@@ -32,10 +32,17 @@ li a:hover {
 }
 
 
-.accessbility_div{
-	position: absolute
-	width: 0px
-	height:0px
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+html, body {
+  height: 100%;
+  margin: auto;
+/*so i could scroll down*/
+  overflow: scroll;
 }
   
 
